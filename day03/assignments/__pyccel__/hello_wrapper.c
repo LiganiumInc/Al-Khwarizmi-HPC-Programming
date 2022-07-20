@@ -3,6 +3,7 @@
 #include "numpy/arrayobject.h"
 #include "cwrapper.h"
 #include <stdlib.h>
+#include <stdint.h>
 
 
 
@@ -12,10 +13,12 @@
 /*........................................*/
 
 
-static int exec_func(PyObject* m)
+/*........................................*/
+static int32_t exec_func(PyObject *m)
 {
     return 0;
 }
+/*........................................*/
 
 /*........................................*/
 
